@@ -1,0 +1,24 @@
+
+<?xml version="1.0"?>
+<menu type="horizontal classic pro v 2.0">
+	<media_to_load lev0_left_path="menu_data/lev0_leftright.swf" lev0_mid_normal_path="menu_data/lev0_normal.swf" lev0_mid_mouseover_path="menu_data/lev0_mouseover.swf" lev0_mid_selected_path="menu_data/lev0_mouseover.swf" lev0_right_path="menu_data/lev0_leftright.swf" lev0_arrow_path="menu_data/lev0_arrow.swf" lev1_mid_normal_path="menu_data/lev1_normal.swf" lev1_mid_mouseover_path="menu_data/lev1_mouseover.swf" lev1_mid_selected_path="menu_data/lev1_mouseover.swf" lev1_bottom_path="" lev1_arrow_path="menu_data/lev1_arrow.swf" search_button_path="menu_data/lev0_normal.swf" bg_path="menu_data/novo-3.jpg" snd_level0_mouseover_path="menu_data/lev0_mouseover.mp3" snd_level1_mouseover_path="menu_data/lev1_mouseover.mp3" snd_click_path="" lev1_left_path="" lev1_top_path="" lev1_right_path=""/>
+	<menu_structure>
+		<item>
+			<item text="COBRANÇA AD" url="" icon="" open_window="" take_level_colorize_data="1">
+				 <item text="RELATÓRIOS" url="http://127.0.0.1/cobranca/emite_rel_geral.php" icon="" open_window="mainFrame" take_level_colorize_data="1"/> 
+				<item text="EMISSÃO DE CARTAS" url="http://127.0.0.1/cobranca/emite_carta_ad.php" icon="" open_window="mainFrame" take_level_colorize_data="1"/>
+				<item text="INCLUSÃO" url="http://127.0.0.1/cobranca/consul_inclusao.php" icon="" open_window="mainFrame" take_level_colorize_data="1"/>
+				<item text="EXCLUSÃO" url="http://127.0.0.1/cobranca/consul_exclusao.php" icon="" open_window="mainFrame" take_level_colorize_data="1"/>
+				<item text="ATUALIZAR" url="http://127.0.0.1/cobranca/consul_atualiza_ad.php" icon="" open_window="mainFrame" take_level_colorize_data="1"/>
+			</item>
+			<item text="COBRANÇA EMPRESTIMO" url="" icon="" open_window="" take_level_colorize_data="1">
+				<item text="RELATÓRIOS" url="http://127.0.0.1/cobranca/emite_rel_geral_emp.php" icon="" open_window="mainFrame" take_level_colorize_data="1"/>
+				<item text="EMISSÃO DE CARTAS" url="http://127.0.0.1/cobranca/emite_carta_emp.php" icon="" open_window="mainFrame" take_level_colorize_data="1"/>
+				<item text="INCLUSÃO" url="http://127.0.0.1/cobranca/consul_inclusao_emp.php" icon="" open_window="mainFrame" take_level_colorize_data="1"/>
+				<item text="EXCLUSÃO" url="http://127.0.0.1/cobranca/consul_exclusao_emp.php" icon="" open_window="mainFrame" take_level_colorize_data="1"/>
+				<item text="ATUALIZAR" url="" icon="" open_window="_self" take_level_colorize_data="1"/>
+			</item>
+		</item>
+	</menu_structure>
+</menu>
+

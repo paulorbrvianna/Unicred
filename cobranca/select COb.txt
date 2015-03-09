@@ -1,0 +1,20 @@
+SELECT * 
+FROM posicaocontabil AS p
+LEFT JOIN garantias_devedorSolidario AS g ON ( p.contrato = g.nro_titulo ) 
+WHERE p.contrato NOT 
+IN (
+
+SELECT cont
+FROM rel_carta_cob_emp
+WHERE  'C2' !=  ''
+)
+AND (
+sld_em_atraso
+BETWEEN 20 
+AND 10000000000
+)
+AND (
+diasematraso
+BETWEEN 15 
+AND 100000
+)
